@@ -1,0 +1,9 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Optional: enables --use-playwright flag to scrape JavaScript-rendered pages
+# (currently only FMS / functionalmovement.com/events). After installing the
+# package, also run `python3 -m playwright install chromium` to download the
+# browser binary (~150 MB, one-time).
+# Uncomment the line below to install Playwright automatically with `pip install -r`:
+# playwright>=1.40.0
