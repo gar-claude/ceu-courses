@@ -1,0 +1,1328 @@
+[
+  {
+    "city": "Steamboat Springs",
+    "name": "ACEND",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CO",
+    "url": "https://acend.org/"
+  },
+  {
+    "city": "Jacksonville",
+    "name": "AchieveCE",
+    "notes": "Self-paced online CE only.",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "FL",
+    "url": "https://achievece.com/findce/california-physical-therapist"
+  },
+  {
+    "city": "Aliso Viejo",
+    "name": "AC Training and Seminars",
+    "notes": "CA-based; small provider, check site.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "CA",
+    "url": "https://actrainingandseminars.com/"
+  },
+  {
+    "city": "Edmond",
+    "name": "AdvantageCEUs.com",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "OK",
+    "url": "http://www.advantageceus.com/"
+  },
+  {
+    "city": "Lake Havasu City",
+    "name": "Agave Continuing Education",
+    "scrape_status": "no_website",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "AZ",
+    "url": ""
+  },
+  {
+    "city": "Palo Alto",
+    "name": "Agile Physical Therapy, Inc.",
+    "notes": "Already scraped via existing 'agile' provider key.",
+    "scrape_status": "working",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Raleigh",
+    "name": "Allied Health Education",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "NC",
+    "url": "https://alliedhealthed.com/"
+  },
+  {
+    "city": "Morton",
+    "name": "Altimate Medical, Inc.",
+    "notes": "Medical-device manufacturer, product training only.",
+    "scrape_status": "vendor",
+    "services": [
+      "retroactive"
+    ],
+    "state": "MN",
+    "url": "https://altimatemedical.com/"
+  },
+  {
+    "city": "Milwaukee",
+    "name": "American Academy for Cerebral Palsy & Development Medicine (AACPDM)",
+    "notes": "Annual conference is national, rarely in CA.",
+    "scrape_status": "specialty_assoc",
+    "services": [
+      "ethics"
+    ],
+    "state": "WI",
+    "url": "https://www.aacpdm.org/"
+  },
+  {
+    "city": "Lafayette",
+    "name": "Apex Innovations",
+    "scrape_status": "online_only",
+    "services": [
+      "retroactive"
+    ],
+    "state": "LA",
+    "url": "https://apexinnovations.com/"
+  },
+  {
+    "city": "New York",
+    "name": "Apply EBP, LLC",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "ethics"
+    ],
+    "state": "NY",
+    "url": "http://www.applyebp.com/"
+  },
+  {
+    "city": "Englewood",
+    "name": "APTA Home Health",
+    "scrape_status": "specialty_assoc",
+    "services": [
+      "outside_providers",
+      "individual_licensees"
+    ],
+    "state": "CO",
+    "url": "https://www.homehealthsection.org/"
+  },
+  {
+    "city": "Brunswick",
+    "name": "Aquatic Therapy and Rehab Institute",
+    "scrape_status": "specialty_assoc",
+    "services": [
+      "outside_providers",
+      "individual_licensees"
+    ],
+    "state": "GA",
+    "url": "https://aeawave.org/"
+  },
+  {
+    "city": "Central Point",
+    "name": "At Home Seminars, LLC",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "OR",
+    "url": "https://www.athomeseminars.com/"
+  },
+  {
+    "city": "Willits",
+    "name": "ATrain Education, Inc.",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "http://www.atrainceu.com/"
+  },
+  {
+    "city": "Naperville",
+    "name": "Biologix Solutions LLC",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "IL",
+    "url": "https://blxtraining.com/"
+  },
+  {
+    "city": "Montrose",
+    "name": "Bio-Pacific Operating Company",
+    "scrape_status": "no_website",
+    "services": [
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Sacramento",
+    "name": "California Association for Health Services at Home",
+    "scrape_status": "specialty_assoc",
+    "services": [
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "http://www.cahsah.org/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "California Chiropractic Association",
+    "scrape_status": "different_profession",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.calchiro.org/"
+  },
+  {
+    "city": "Victorville",
+    "name": "California Education Connection",
+    "notes": "CA-based PT CE provider; check for calendar.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.californiaeducationconnection.com/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "California Physical Therapy Association (CPTA)",
+    "notes": "Already scraped via 'cpta' (Cloudflare-blocked, seed-list) and 'cpta_approved' (JSON sidecar from xlsx).",
+    "scrape_status": "working",
+    "services": [
+      "outside_providers",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.ccapta.org/"
+  },
+  {
+    "city": "Sherman Oaks",
+    "name": "Casa Loma College",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://casalomacollege.edu/"
+  },
+  {
+    "city": "Los Angeles",
+    "name": "Cedars Sinai Physical Medicine and Rehabilitation",
+    "notes": "BLS only; internal staff training.",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://www.cedars-sinai.edu/health-sciences-university/research/departments-institutes/physical-medicine.html"
+  },
+  {
+    "city": "Beaverton",
+    "name": "CE Learning Systems",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "OR",
+    "url": "http://www.ce-go.com/"
+  },
+  {
+    "city": "Corte Madera",
+    "name": "CElutions Education",
+    "notes": "CA-based; check for course calendar.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.celutionseducation.com/"
+  },
+  {
+    "city": "Atlanta",
+    "name": "Centers for Disease Control and Prevention",
+    "scrape_status": "online_only",
+    "services": [],
+    "state": "GA",
+    "url": "https://www.cdc.gov/learning/index.html"
+  },
+  {
+    "city": "Oakland",
+    "name": "Center For Elders' Independence",
+    "scrape_status": "internal_only",
+    "services": [
+      "retroactive",
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "http://www.cei.elders.org/"
+  },
+  {
+    "city": "San Luis Obispo",
+    "name": "Central Coast Home Health, Inc.",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "http://www.centralcoasthomehealth.com/"
+  },
+  {
+    "city": "Irvine",
+    "name": "Chapman University Department of Physical Therapy",
+    "notes": "University DPT program; check for public CE calendar.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "CA",
+    "url": "https://www.chapman.edu/crean/academic-programs/graduate-programs/physical-therapy/index.aspx"
+  },
+  {
+    "city": "Santa Ana",
+    "name": "Chiropractor Continuing Education Seminars (CCE Units)",
+    "scrape_status": "different_profession",
+    "services": [
+      "ethics",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "http://www.cceunits.com/"
+  },
+  {
+    "city": "Gulf Breeze",
+    "name": "CIAO Seminars",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "FL",
+    "url": "http://www.ciaoseminars.com/"
+  },
+  {
+    "city": "Las Cruces",
+    "name": "Clinician's View",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "NM",
+    "url": "https://www.clinicians-view.com/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "Colibri Healthcare, LLC (Elite Learning)",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "https://www.elitelearning.com/"
+  },
+  {
+    "city": "Monterey",
+    "name": "Community Hospital of the Monterey Peninsula",
+    "scrape_status": "no_website",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Fresno",
+    "name": "Community Medical Center",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://communitymedical.org/"
+  },
+  {
+    "city": "Wallingford",
+    "name": "Continuing Education Review Services (CERS)",
+    "notes": "Approval agency, not a course provider.",
+    "scrape_status": "approval_only",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "CT",
+    "url": "http://www.cers.com/"
+  },
+  {
+    "city": "San Diego",
+    "name": "Cultivate Physical Therapy & Wellness Services, Inc.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "CA",
+    "url": "http://www.cultivateptwellness.com/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "Dignity Health, a Member of CommonSpirit",
+    "scrape_status": "internal_only",
+    "services": [
+      "ethics",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://ww2.highmarksce.com/dignityhealthcme/"
+  },
+  {
+    "city": "Santa Cruz",
+    "name": "Dominican Hospital Santa Cruz",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "https://www.dignityhealth.org/bayarea/locations/dominican"
+  },
+  {
+    "city": "Palm Coast",
+    "name": "Dr. Federico Grosso",
+    "scrape_status": "individual",
+    "services": [
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "FL",
+    "url": "http://www.fgrosso.com/"
+  },
+  {
+    "city": "Barnegat Light",
+    "name": "Duffy-Rath Physical Therapy, PC",
+    "scrape_status": "individual",
+    "services": [
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "NJ",
+    "url": "https://duffyrath.com/"
+  },
+  {
+    "city": "Medfield",
+    "name": "Education Resources, Inc.",
+    "scrape_status": "untested",
+    "services": [],
+    "state": "MA",
+    "url": "http://www.educationresourcesinc.com/"
+  },
+  {
+    "city": "Rancho Mirage",
+    "name": "Eisenhower Health",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": "https://eisenhowerhealth.org/"
+  },
+  {
+    "city": "Costa Mesa",
+    "name": "Elite Performance Physical Therapy",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "http://www.pteliteperformance.com/"
+  },
+  {
+    "city": "Chico",
+    "name": "Enloe",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.enloe.org/"
+  },
+  {
+    "city": "Yreka",
+    "name": "Fairchild Medical Center",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://fairchildmed.org/"
+  },
+  {
+    "city": "Claymont",
+    "name": "Flex Therapist CEUs",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees",
+      "basic_life_support"
+    ],
+    "state": "DE",
+    "url": "http://www.flextherapistceus.com/"
+  },
+  {
+    "city": "Folsom",
+    "name": "Folsom Physical Therapy & Training Center",
+    "scrape_status": "untested",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.folsomphysicaltherapy.com/"
+  },
+  {
+    "city": "Concord",
+    "name": "Golden State CPR LLC",
+    "notes": "BLS/CPR training, not PT CE.",
+    "scrape_status": "different_focus",
+    "services": [
+      "outside_providers",
+      "basic_life_support",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://goldenstatehealthandsafetysolutions.com/"
+  },
+  {
+    "city": "Akron",
+    "name": "Great Seminars and Books",
+    "notes": "This is DIFFERENT from GLS Seminars (Great Lakes); GLS is already scraped via 'gls' key.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "OH",
+    "url": "https://www.greatseminarsandbooks.com/"
+  },
+  {
+    "city": "Penngrove",
+    "name": "Hands-On and Movement Education Seminars",
+    "scrape_status": "no_website",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Ramona",
+    "name": "Hand Therapy Society of Greater Los Angeles",
+    "notes": "Small specialty assoc; chapter events.",
+    "scrape_status": "specialty_assoc",
+    "services": [],
+    "state": "CA",
+    "url": "https://htsgla.org/"
+  },
+  {
+    "city": "Austin",
+    "name": "Hanger Clinic",
+    "scrape_status": "vendor",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "TX",
+    "url": "https://hangerclinic.com/"
+  },
+  {
+    "city": "Newport Beach",
+    "name": "HOAG Memorial Hospital Presbyterian",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.hoag.org/"
+  },
+  {
+    "city": "Champaign",
+    "name": "Human Kinetics",
+    "scrape_status": "online_only",
+    "services": [],
+    "state": "IL",
+    "url": "https://us.humankinetics.com/collections/continuing-education"
+  },
+  {
+    "city": "Sacramento",
+    "name": "Infant Development Association of California",
+    "scrape_status": "specialty_assoc",
+    "services": [],
+    "state": "CA",
+    "url": "https://www.idaofcal.org/"
+  },
+  {
+    "city": "Boynton Beach",
+    "name": "Innovative Educational Services",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "FL",
+    "url": "http://www.cheapceus.com/"
+  },
+  {
+    "city": "Concord",
+    "name": "Institute for Natural Resources (INR)",
+    "notes": "URL explicitly says 'Webinars'.",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://www.inrseminars.com/Seminarsr.aspx?st=Webinars"
+  },
+  {
+    "city": "Placentia",
+    "name": "Interface Rehab, Inc.",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.interfacerehab.com/"
+  },
+  {
+    "city": "Walnut Creek",
+    "name": "John Muir Health",
+    "scrape_status": "internal_only",
+    "services": [
+      "ethics",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "http://www.johnmuirhealth.com/"
+  },
+  {
+    "city": "Pleasanton",
+    "name": "Kaiser Permanente Northern California Rehab Services Ed",
+    "notes": "CE page exists but is empty placeholder ('Check often for updates') as of May 2026. Re-check periodically.",
+    "scrape_status": "no_calendar",
+    "services": [],
+    "state": "CA",
+    "url": "https://rehabilitationserviceseducation-ncal.kaiserpermanente.org/"
+  },
+  {
+    "city": "Woodland Hills",
+    "name": "Kaiser Permanente, SCAL Regional CE Committee",
+    "scrape_status": "internal_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "San Francisco",
+    "name": "Kauno Physical Therapy",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.kaunosf.com/"
+  },
+  {
+    "city": "Henderson",
+    "name": "learn.vegas (Amy Ashmore)",
+    "scrape_status": "individual",
+    "services": [],
+    "state": "NV",
+    "url": "https://amyashmore.com/"
+  },
+  {
+    "city": "Vancouver",
+    "name": "Liddle Kidz Foundation",
+    "notes": "Pediatric massage; out-of-state.",
+    "scrape_status": "specialty_assoc",
+    "services": [],
+    "state": "WA",
+    "url": "http://www.LiddleKidz.org/"
+  },
+  {
+    "city": "Greensboro",
+    "name": "Living Well Institute",
+    "scrape_status": "online_only",
+    "services": [
+      "retroactive"
+    ],
+    "state": "NC",
+    "url": "https://garnerpelvichealth.com/available-courses/"
+  },
+  {
+    "city": "Loma Linda",
+    "name": "Loma Linda University Medical Center, Staff Development",
+    "notes": "University CE portal; likely has public courses.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "ethics",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://ce.llu.edu/"
+  },
+  {
+    "city": "Seattle",
+    "name": "Medial Sciences Foundation",
+    "scrape_status": "no_website",
+    "services": [
+      "retroactive"
+    ],
+    "state": "WA",
+    "url": ""
+  },
+  {
+    "city": "Fountain Valley",
+    "name": "MemorialCare, Orange Coast Medical Center",
+    "scrape_status": "internal_only",
+    "services": [
+      "retroactive",
+      "basic_life_support",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://www.memorialcare.org/"
+  },
+  {
+    "city": "Redding",
+    "name": "Mercy Medical Center Redding",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": "https://www.dignityhealth.org/north-state/locations/mercy-redding"
+  },
+  {
+    "city": "Mission Viejo",
+    "name": "Mission Hospital",
+    "scrape_status": "internal_only",
+    "services": [
+      "ethics",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://www.providence.org/locations/socal/mission-hospital-mission-viejo"
+  },
+  {
+    "city": "Simpsonville",
+    "name": "Motivations Inc",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "SC",
+    "url": "http://www.motivationsceu.com/"
+  },
+  {
+    "city": "Lombard",
+    "name": "National University of Health Sciences",
+    "scrape_status": "out_of_state",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "IL",
+    "url": "http://www.nuhs.edu/"
+  },
+  {
+    "city": "Fountain Valley",
+    "name": "NeuroCollaborative",
+    "notes": "Kajabi mentorship platform; courses are online-only.",
+    "scrape_status": "online_only",
+    "services": [],
+    "state": "CA",
+    "url": "https://www.neurocollaborative.com/"
+  },
+  {
+    "city": "Franklin",
+    "name": "North American Seminars, Inc (Healthclick)",
+    "scrape_status": "online_only",
+    "services": [
+      "retroactive"
+    ],
+    "state": "TN",
+    "url": "http://www.healthclick.com/"
+  },
+  {
+    "city": "Rocky Hill",
+    "name": "Numotion",
+    "scrape_status": "vendor",
+    "services": [],
+    "state": "CT",
+    "url": "https://numotion.aomlms.com/"
+  },
+  {
+    "city": "Lompoc",
+    "name": "Opportunities for Training Pediatric Therapists",
+    "scrape_status": "no_website",
+    "services": [
+      "retroactive"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Culver City",
+    "name": "Orthopaedic Rehabilitation Specialists",
+    "scrape_status": "no_website",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Escondido",
+    "name": "Palomar Health",
+    "scrape_status": "internal_only",
+    "services": [
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.palomarhealth.org/"
+  },
+  {
+    "city": "Eau Claire",
+    "name": "PESI, Inc.",
+    "scrape_status": "online_only",
+    "services": [
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "WI",
+    "url": "https://www.pesi.com/rehab/"
+  },
+  {
+    "city": "Austin",
+    "name": "physicaltherapy.com",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "TX",
+    "url": "https://www.physicaltherapy.com/"
+  },
+  {
+    "city": "Dover",
+    "name": "Physicourses",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "DE",
+    "url": "https://www.physicourses.com/"
+  },
+  {
+    "city": "Redding",
+    "name": "Prime Healthcare Services - Shasta",
+    "scrape_status": "internal_only",
+    "services": [
+      "ethics",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "http://www.shastaregional.com/"
+  },
+  {
+    "city": "Santa Rosa",
+    "name": "Providence Santa Rosa Memorial Hospital",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "https://www.providence.org/locations/norcal/santa-rosa-memorial-hospital"
+  },
+  {
+    "city": "Fullerton",
+    "name": "Providence St. Jude Medical Center",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "https://www.providence.org/locations/socal/st-jude-medical-center"
+  },
+  {
+    "city": "Calabasas",
+    "name": "PTPN, Inc.",
+    "notes": "PT clinic network; member-only CE.",
+    "scrape_status": "network_only",
+    "services": [
+      "outside_providers",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.ptpn.com/"
+  },
+  {
+    "city": "Eureka",
+    "name": "Quest for Excellence",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://questforexcellence.org/"
+  },
+  {
+    "city": "Downey",
+    "name": "Rancho Los Amigos National Rehab Center PT PEI",
+    "scrape_status": "no_website",
+    "services": [],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Palatine",
+    "name": "Redefine Health Education, LLC",
+    "scrape_status": "approval_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "IL",
+    "url": "https://ceuapproval.com/"
+  },
+  {
+    "city": "Redlands",
+    "name": "Redlands Community Hospital",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://www.redlandshospital.org/"
+  },
+  {
+    "city": "Tallman",
+    "name": "Rehab Education, LLC",
+    "scrape_status": "online_only",
+    "services": [],
+    "state": "NY",
+    "url": "https://www.rehabed.com/"
+  },
+  {
+    "city": "Vashon",
+    "name": "Rehab Seminars",
+    "scrape_status": "untested",
+    "services": [],
+    "state": "WA",
+    "url": "http://www.rehabseminars.org/"
+  },
+  {
+    "city": "Goldsboro",
+    "name": "Rehabsurge 2, LLC",
+    "scrape_status": "online_only",
+    "services": [
+      "outside_providers",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "NC",
+    "url": "http://www.rehabsurge.com/"
+  },
+  {
+    "city": "Upland",
+    "name": "Rehab Without Walls",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": "https://www.rehabwithoutwalls.com/"
+  },
+  {
+    "city": "Morrisville",
+    "name": "Relias, LLC",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "NC",
+    "url": "https://reliasacademy.com/"
+  },
+  {
+    "city": "Chatsworth",
+    "name": "Ride On LA",
+    "notes": "Therapeutic horseback riding.",
+    "scrape_status": "specialty_assoc",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.rideon.org/"
+  },
+  {
+    "city": "Walnut Creek",
+    "name": "Safety Training Seminars",
+    "scrape_status": "different_focus",
+    "services": [
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://safetytrainingseminars.com/"
+  },
+  {
+    "city": "San Luis Obispo",
+    "name": "San Luis Sports Therapy / Movement for Life",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": "https://www.movementforlife.com/"
+  },
+  {
+    "city": "San Diego",
+    "name": "Scripps Center for Learning and Innovation",
+    "scrape_status": "no_website",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Coral Springs",
+    "name": "Scully Health Management, Inc",
+    "scrape_status": "no_website",
+    "services": [
+      "ethics"
+    ],
+    "state": "FL",
+    "url": ""
+  },
+  {
+    "city": "Chicago",
+    "name": "Shirley Ryan AbilityLab",
+    "scrape_status": "out_of_state",
+    "services": [
+      "ethics"
+    ],
+    "state": "IL",
+    "url": "http://www.sralab.org/academy"
+  },
+  {
+    "city": "Sacramento",
+    "name": "Shriners Children's Northern California",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://www.shrinerschildrens.org/en/locations/northern-california"
+  },
+  {
+    "city": "Cypress",
+    "name": "South Coast Therapy",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.sctpeds.com/"
+  },
+  {
+    "city": "Corona",
+    "name": "Southwest Healthcare",
+    "scrape_status": "internal_only",
+    "services": [
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://www.southwesthealthcare.com/our-facilities"
+  },
+  {
+    "city": "Torrance",
+    "name": "Sports Medicine Alliance",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://drscottwcheatham.com/"
+  },
+  {
+    "city": "Stockton",
+    "name": "St. Joseph's Medical Center",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://dignityhealth.org/"
+  },
+  {
+    "city": "Palo Alto",
+    "name": "Stanford Healthcare Rehabilitation Services",
+    "notes": "No public CE calendar; registration via rehabeducation@stanfordhealthcare.org email.",
+    "scrape_status": "no_calendar",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://stanfordhealthcare.org/medical-clinics/physical-medicine-and-rehabilitation.html"
+  },
+  {
+    "city": "Franklin",
+    "name": "Summit Professional Education",
+    "scrape_status": "online_only",
+    "services": [
+      "retroactive",
+      "ethics"
+    ],
+    "state": "TN",
+    "url": "https://summit-education.com/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "Sutter Health",
+    "scrape_status": "internal_only",
+    "services": [
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://www.sutterhealth.org/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "Sutter Valley Hospitals",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers",
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "http://www.sutterhealth.org/"
+  },
+  {
+    "city": "Chiefland",
+    "name": "Svetlana Masgutova Educational Institute",
+    "scrape_status": "specialty_method",
+    "services": [],
+    "state": "FL",
+    "url": "https://masgutovamethod.com/"
+  },
+  {
+    "city": "Wilmington",
+    "name": "TGN Community LLC (TRAVCON)",
+    "notes": "Travel therapist conference; usually national.",
+    "scrape_status": "specialty_assoc",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "ethics",
+      "individual_licensees"
+    ],
+    "state": "DE",
+    "url": "https://travcon.org/"
+  },
+  {
+    "city": "Kent",
+    "name": "Therapeutic Associates",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "WA",
+    "url": "https://www.therapeuticassociates.com/"
+  },
+  {
+    "city": "Los Angeles",
+    "name": "Therapy West, Inc.",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "http://www.therapywest.org/"
+  },
+  {
+    "city": "Sacramento",
+    "name": "UC Davis Health Medical Center",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers",
+      "retroactive"
+    ],
+    "state": "CA",
+    "url": "https://health.ucdavis.edu/medical-center/"
+  },
+  {
+    "city": "Orange",
+    "name": "UCI Health Rehabilitation Services",
+    "scrape_status": "no_website",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": ""
+  },
+  {
+    "city": "Los Angeles",
+    "name": "UCLA Health Rehabilitation Services",
+    "scrape_status": "internal_only",
+    "services": [
+      "retroactive",
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "https://www.uclahealth.org/medical-services/rehab/our-services"
+  },
+  {
+    "city": "Los Angeles",
+    "name": "UCLA/OIC Center for Cerebral Palsy",
+    "scrape_status": "specialty_clinic",
+    "services": [
+      "outside_providers",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://www.uclahealth.org/medical-services/ortho/pediatric-orthopaedics/cerebral-palsy/locations-and-contacts"
+  },
+  {
+    "city": "San Francisco",
+    "name": "UCSF Department of Physical Therapy and Rehabilitation Science",
+    "notes": "Already scraped via existing 'ucsf' provider key. Page returns 403 to some clients; existing scraper may need Playwright.",
+    "scrape_status": "working",
+    "services": [],
+    "state": "CA",
+    "url": "https://ptrehab.ucsf.edu/continuing-education"
+  },
+  {
+    "city": "Stockton",
+    "name": "University of the Pacific Department of Physical Therapy",
+    "scrape_status": "untested",
+    "services": [],
+    "state": "CA",
+    "url": "http://www.pacific.edu/DPT"
+  },
+  {
+    "city": "Los Angeles",
+    "name": "USC Division of Biokinesiology and Physical Therapy",
+    "notes": "NEW scraper added: 'usc'. Pulls from https://pt.usc.edu/upcoming-courses/.",
+    "scrape_status": "working",
+    "services": [
+      "outside_providers"
+    ],
+    "state": "CA",
+    "url": "https://pt.usc.edu/programs/continuing-education/"
+  },
+  {
+    "city": "Fremont",
+    "name": "Washington Hospital",
+    "scrape_status": "internal_only",
+    "services": [],
+    "state": "CA",
+    "url": "https://www.washingtonhealth.com/"
+  },
+  {
+    "city": "Pomona",
+    "name": "Western University of Health Sciences DPT",
+    "scrape_status": "untested",
+    "services": [
+      "outside_providers",
+      "basic_life_support",
+      "individual_licensees"
+    ],
+    "state": "CA",
+    "url": "https://www.westernu.edu/health-sciences/dpt/"
+  },
+  {
+    "city": "Comptche",
+    "name": "Wild Iris Medical Education",
+    "scrape_status": "online_only",
+    "services": [
+      "ethics"
+    ],
+    "state": "CA",
+    "url": "https://wildirismedicaleducation.com/"
+  },
+  {
+    "city": "San Francisco",
+    "name": "Zuckerberg San Francisco General Hospital Rehab",
+    "scrape_status": "internal_only",
+    "services": [
+      "outside_providers",
+      "retroactive",
+      "basic_life_support"
+    ],
+    "state": "CA",
+    "url": "https://www.zuckerbergsanfranciscogeneral.org/"
+  }
+]

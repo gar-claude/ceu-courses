@@ -250,6 +250,7 @@ class Course:
     pt_attendable: bool = True  # False = course is for non-PT discipline only; gets filtered out
     notes: str = ""
     discovered_at: str = ""  # ISO timestamp when first seen
+    specialties: list[str] = field(default_factory=list)  # auto-tagged via classify_specialty()
 
     def stable_key(self) -> str:
         """Used for diffing across runs."""
@@ -416,6 +417,102 @@ def keep_for_listing(location_text: str) -> bool:
     Drop only out-of-region in-person events (e.g. 'Neptune, NJ', 'Boise, ID').
     """
     return in_radius(location_text) or is_virtual(location_text)
+
+
+# ----------------------------------------------------------------------------
+# Specialty classification
+# ----------------------------------------------------------------------------
+# Tags each course with zero or more practice-area specialties based on
+# keyword matches against title + notes + provider name. A course may have
+# multiple specialties (e.g. a course on dementia falls into both neuro and
+# geriatrics). Empty list = "general / unclassified".
+#
+# Used by render_markdown() to produce per-specialty sub-sections.
+# To add a new specialty, add an entry to SPECIALTY_KEYWORDS. Each keyword
+# is matched as a case-insensitive substring against the combined text.
+# ----------------------------------------------------------------------------
+
+SPECIALTY_KEYWORDS: dict[str, tuple[str, ...]] = {
+    "neuro": (
+        "stroke", "parkinson", "neuro", "vestibular", "concussion", "tbi",
+        "spinal cord", "neurological", "neuromuscular", "ndt", "pnf",
+        "movement disorder", "ms ", "multiple sclerosis", "ataxia",
+        "huntington", "cva", "hemiparesis",
+    ),
+    "pediatrics": (
+        "pediatric", "infant", "child", "torticollis", "developmental",
+        "cerebral palsy", "autism", "early intervention", "ndt-baby",
+        "feeding", "school-based",
+    ),
+    "lymphedema": (
+        "lymphedema", "lymphatic", "edema management", "mld",
+        "manual lymphatic", "compression therapy", "clt-",
+        "complete decongestive", "klose", "norton school",
+    ),
+    "pelvic": (
+        "pelvic", "incontinence", "pudendal", "perinatal", "postpartum",
+        "diastasis", "vulvodynia", "endometriosis", "prolapse",
+        "voiding", "obstetric", "herman & wallace", "herman and wallace",
+        "pessary",
+    ),
+    "ortho": (
+        "orthopedic", "orthopaedic", "manual therapy", "mobilization",
+        "manipulation", "musculoskeletal", "msk", "biomechanic",
+        "fmupper", "fmlower", "fmue", "fmle",
+        "knee", "shoulder", "hip ", "ankle", "lumbar", "cervical",
+        "frozen shoulder", "rotator cuff",
+    ),
+    "sports": (
+        "sport", "athlete", "running", "throwing", "acl", "post-op",
+        "return to sport", "performance", "barbell", "crossfit",
+        "soccer", "baseball", "basketball", "football", "tennis",
+        "golf", "tactical",
+    ),
+    "geriatrics": (
+        "geriatric", "older adult", "fall prevention", "aging",
+        "memory care", "dementia", "lewy body", "frailty",
+    ),
+    "cardiopulm": (
+        "cardiac", "pulmonary", "cardiopulmonary", "icu", "covid",
+        "respiratory", "lvad", "transplant", "copd",
+    ),
+    "pain": (
+        "pain", "chronic pain", "tmj", "myofascial", "trigger point",
+        "dry needling", "graston", "iastm", "cupping", "nociplastic",
+    ),
+    "hand": (
+        "hand therapy", "upper extremity", "carpal tunnel",
+        "wrist", "elbow", "tendinopathy of the",
+    ),
+    "oncology": (
+        "oncology", "cancer", "sarcoma", "lymphoma", "leukemia",
+        "myeloma", "breast cancer", "prostate cancer", "tumor",
+    ),
+    "vestibular": (
+        "vestibular", "bppv", "dizziness", "concussion", "balance",
+    ),
+    "tmj": (
+        "tmj", "temporomandibular", "jaw pain", "jaw dysfunction",
+        "craniofacial", "orofacial pain", "bruxism", "trismus",
+        "masticatory", "cervicofacial",
+    ),
+}
+
+
+def classify_specialty(course: "Course") -> list[str]:
+    """Return list of specialty tags for a course. Empty if no keyword hits."""
+    text = " ".join([
+        (course.title or "").lower(),
+        (course.notes or "").lower(),
+        (course.provider or "").lower(),
+    ])
+    if not text.strip():
+        return []
+    out: list[str] = []
+    for tag, kws in SPECIALTY_KEYWORDS.items():
+        if any(kw in text for kw in kws):
+            out.append(tag)
+    return out
 
 
 # ----------------------------------------------------------------------------
@@ -3361,6 +3458,12 @@ EVENTBRITE_QUERIES: list[tuple[str, str]] = [
     ("ca", "physical-therapy-continuing-education"),
     ("ca", "manual-therapy"),
     ("ca", "dry-needling-course"),
+    # Specialty-focused discovery queries
+    ("ca", "pelvic-floor-physical-therapy"),
+    ("ca", "lymphedema-certification"),
+    ("ca", "pediatric-physical-therapy"),
+    ("ca", "neuro-rehabilitation"),
+    ("ca", "vestibular-rehabilitation"),
 ]
 
 EVENTBRITE_TITLE_WHITELIST = (
@@ -3816,19 +3919,20 @@ def render_markdown(courses: list[Course]) -> str:
 
     Output structure:
       # California PT CEU Courses — Live Listing
+      ## Specialty Index   (counts by specialty across both buckets)
       ## Legend
       # In-Person — California
         ## <Month Year>   (grouped)
-          ### <date> — <title>
+          ### <date> — <title>   [specialty tags listed in details]
             ...
       # Virtual / Online / Webinar
         ## <Month Year>   (grouped)
           ### <date> — <title>
             ...
 
-    The two top-level buckets are decided by is_virtual() on each course's
-    location field. Courses with an empty location are treated as in-person CA
-    (rare; surfaced for manual review).
+    Specialty tags come from classify_specialty() applied during the run loop.
+    A course can carry multiple tags (e.g. neuro + geriatrics for a course on
+    Parkinson's-related fall prevention).
     """
     courses = sorted(courses, key=lambda c: (c.start_date or "9999-99-99", c.provider))
     today_str = date.today().isoformat()
@@ -3836,6 +3940,17 @@ def render_markdown(courses: list[Course]) -> str:
     # Split into the two top-level buckets.
     ca_courses = [c for c in courses if not is_virtual(c.location)]
     virtual_courses = [c for c in courses if is_virtual(c.location)]
+
+    # Specialty counts across both buckets (for the index).
+    from collections import Counter
+    specialty_counts: Counter[str] = Counter()
+    untagged_count = 0
+    for c in courses:
+        tags = c.specialties or []
+        if not tags:
+            untagged_count += 1
+        for t in tags:
+            specialty_counts[t] += 1
 
     lines: list[str] = []
     lines.append(f"# California PT CEU Courses — Live Listing\n")
@@ -3847,6 +3962,19 @@ def render_markdown(courses: list[Course]) -> str:
         f"virtual / online / webinar: {len(virtual_courses)}).*\n"
     )
     lines.append("")
+
+    # Specialty index
+    lines.append("## Specialty Index\n")
+    if specialty_counts:
+        # Stable order: most populated first
+        for tag, n in specialty_counts.most_common():
+            lines.append(f"- **{tag}**: {n} course{'s' if n != 1 else ''}")
+        if untagged_count:
+            lines.append(f"- **(unclassified)**: {untagged_count} course{'s' if untagged_count != 1 else ''}")
+    else:
+        lines.append("*No specialty tags applied yet.*")
+    lines.append("")
+
     lines.append("## Legend\n")
     lines.append("- PT CEUs: ✅ = yes, ❌ = no, ⚠️ = via reciprocity / verify, ❓ = unknown\n")
     lines.append("")
@@ -3885,6 +4013,8 @@ def render_markdown(courses: list[Course]) -> str:
             lines.append(f"### {date_str} — {c.title}")
             lines.append(f"- **Provider:** {c.provider}")
             lines.append(f"- **Location:** {c.location}")
+            if c.specialties:
+                lines.append(f"- **Specialty:** {', '.join(c.specialties)}")
             if c.audience:
                 lines.append(f"- **Audience:** {c.audience}")
             lines.append(f"- **PT CEUs:** {pt_marker} {c.pt_ceus}")
@@ -3989,6 +4119,10 @@ def run(only_provider: str | None = None, notify: bool = False) -> int:
             dropped = len(in_window) - len(pt_attendable)
             if dropped:
                 log(f"   dropped {dropped} non-PT-attendable courses")
+            # Auto-tag specialties (idempotent; safe to re-run).
+            for c in pt_attendable:
+                if not c.specialties:
+                    c.specialties = classify_specialty(c)
             all_courses.extend(pt_attendable)
         except Exception as e:
             log(f"   ERROR: {e}")
