@@ -4,14 +4,14 @@
 
 *Window: 2026-06-05 to 2027-06-05.*
 
-*Total tracked: **275** (in-person CA: 99, virtual / online / webinar: 176).*
+*Total tracked: **276** (in-person CA: 100, virtual / online / webinar: 176).*
 
 
 ## Specialty Index
 
-- **neuro**: 68 courses
+- **neuro**: 69 courses
 - **ortho**: 34 courses
-- **cardiopulm**: 32 courses
+- **cardiopulm**: 33 courses
 - **sports**: 20 courses
 - **vestibular**: 11 courses
 - **pediatrics**: 10 courses
@@ -58,6 +58,15 @@
 - **PT CEUs:** ❓ yes (self-submit; NSCA CEU-approved at minimum)
 - **Notes:** Cross-disciplinary movement education. CA PTs typically self-submit; NSCA CEUs are standard. Verify with the host instructor before registering.
 - **URL:** https://www.somavoyer.com/course-calendar
+
+### 2026-06-08 – 2026-06-08 — DNS Skills Workshop
+- **Provider:** DNS / Prague School of Rehabilitation
+- **Location:** Stanford, CA
+- **Specialty:** neuro, cardiopulm
+- **Audience:** PT, DC, MD, DO, ATC, manual therapists, S&C coaches
+- **PT CEUs:** ❓ yes (self-submit syllabus to CA PTBC)
+- **Notes:** DNS = Dynamic Neuromuscular Stabilization (Kolar method). International curriculum; US courses run by certified DNS instructors. CA PT CEU via self-submission.
+- **URL:** course.php?c_id=4095
 
 ### 2026-06-12 – 2026-06-14 — CFS: CoreFirst Strategies
 - **Provider:** Institute of Physical Art (IPA)

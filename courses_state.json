@@ -2020,6 +2020,24 @@
     "title": "Postural Respiration",
     "url": "https://www.posturalrestoration.com/courses/"
   },
+  "69ec903a8f5f": {
+    "audience": "PT, DC, MD, DO, ATC, manual therapists, S&C coaches",
+    "course_id": "69ec903a8f5f",
+    "discovered_at": "2026-06-05T13:53:46",
+    "end_date": "2026-06-08",
+    "location": "Stanford, CA",
+    "notes": "DNS = Dynamic Neuromuscular Stabilization (Kolar method). International curriculum; US courses run by certified DNS instructors. CA PT CEU via self-submission.",
+    "provider": "DNS / Prague School of Rehabilitation",
+    "pt_attendable": true,
+    "pt_ceus": "yes (self-submit syllabus to CA PTBC)",
+    "specialties": [
+      "neuro",
+      "cardiopulm"
+    ],
+    "start_date": "2026-06-08",
+    "title": "DNS Skills Workshop",
+    "url": "course.php?c_id=4095"
+  },
   "6a911a2761c0": {
     "audience": "PT, PTA",
     "course_id": "6a911a2761c0",
